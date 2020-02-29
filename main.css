@@ -1,0 +1,59 @@
+/*--------global---------*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  font-family: Circular Std, sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 100;
+  color: #289dff;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.btnOutline {
+  display: block;
+  text-decoration: none;
+  color: #289dff;
+  border: 2px solid #289dff;
+  border-radius: 6px;
+  width: 175px;
+  height: 53px;
+  line-height: 53px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btnFilled {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: #289dff;
+  border-radius: 6px;
+  width: 175px;
+  height: 53px;
+  line-height: 53px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/*--------nav---------*/
