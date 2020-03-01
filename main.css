@@ -229,4 +229,32 @@ footer p,
     min-height: 900px;
     overflow-y: visible;
   }
+  .about h1 {
+    padding-top: 900px;
+  }
+  .about h1,
+  .icons {
+    margin-left: 0;
+  }
+  .callToAction {
+    margin-top: 25em;
+    padding: 15em 5% 15em 5%;
+    background-size: 70%;
+  }
+  .callToAction h1,
+  .callToAction a {
+    margin-bottom: 30px;
+  }
+  footer {
+    text-align: center;
+  }
+  .footerPages {
+    visibility: hidden;
+  }
+  footer p,
+  .footerPages {
+    display: block;
+  }
 }
+
+@media only screen and (max-with: 600px);
